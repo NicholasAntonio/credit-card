@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Credit Card</title>
+</head>
+<body>
+    <main class="container">
+        <div class="inputs">
+            <form action="">
+                <div class="card-number-form">
+                    <label for="">Número do cartão</label>
+                    <input type="number" name="number-input" id="number-input" placeholder="1234 1234 1234 1234" maxlength="19" required>
+                </div>
+                <div class="holder-form">
+                    <label for="">Nome impresso</label>
+                    <input type="text" name="name-input" id="name-input" placeholder="1234 1234 1234 1234" maxlength="30" required>
+                </div>
+                <div class="expiration-form">
+                    <label for="">Validade</label>
+                    <input type="text" name="expiration-input" id="expiration-input" placeholder="MM/AA" maxlength="5" required>
+                </div>
+                <div class="cvv-form">
+                    <label for="">CVV</label>
+                    <input type="number" name="cvv-input" id="cvv-input" placeholder="XXX" maxlength="3" required>
+                </div>
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+        <div class="credit-card">
+            <div class="card">
+                <i class='bx bx-wifi-2'></i>
+                <div class="card-number">1234 1234 1234</div>
+                <div class="holder">Seu Nome Aqui</div>
+                <div class="expiration">MM/AA</div>
+                <div class="cvv">XXX</div>
+                <img src="" alt="chip-img">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
